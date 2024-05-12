@@ -1,0 +1,6 @@
+.feed-main-container {
+    background-image: url("../../assets/images/background.jpg");
+    background-repeat: repeat-y;
+    background-size: 100% 100% ;
+    height: fit-content;
+}

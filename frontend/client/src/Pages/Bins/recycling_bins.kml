@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Geri Dönüşüm Kumbaraları</name>
+    <description>GÖLBAŞI BELEDİYESİ GERİ DÖNÜŞÜM KUMBARALARI.</description>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-22-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-22-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFFFF-3000-nodesc-normal">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFFFF-3000-nodesc-highlight">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>4.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFFFF-3000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFFFF-3000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFFFF-3000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFFFF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFFFF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFFFF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFFFF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFFFF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Adsız katman</name>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>LİSE GİRİŞİ.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.805471,39.790958,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>YOL</name>
+        <styleUrl>#line-FFFFFF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            32.779577,39.788324,0
+            32.777882,39.787533,0
+            32.778268,39.786016,0
+            32.779684,39.783905,0
+            32.781637,39.783279,0
+            32.78213,39.783608,0
+            32.782302,39.783328,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>İMAM HATİP LİSESİ GİRİŞİ.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.799039,39.801135,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUTULARI</name>
+        <description>ÇAĞDAŞ İÇERİSİNDE.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.800519,39.803657,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUTULARI</name>
+        <description>ENDÜSTRİ MESLEK LİSESİ.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.800455,39.801934,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>BALDUDAK İLKÖĞRETİM OKULU</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.800305,39.796296,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>GAFFAR OKKAN CADDESİ, MARKET ÖNÜNDE.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.801877,39.796012,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>Dr. ŞERAFETTİN TOMBULOĞLU LİSESİ</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.805524,39.790204,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>ATATÜRK SAHİL PARKI</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.801566,39.788621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>TURİZM OTELCİLİK TİCARET MESLEK SİTESİ GİRİŞİ</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.804575,39.790732,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>MARKETLERİN ÖNÜNDE.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.804275,39.80247,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>AĞIZ VE DİŞ SAĞLIĞI GİRİŞİ.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.805133,39.799799,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>HSBC ÖNÜNDE.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.805777,39.79604,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>ERKEN BAŞARI KOLEJİ GİRİŞİ</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.717092,39.818557,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>MERKEZKENT SİTESİ GİRİŞİ - 2 ADET</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.73119,39.762301,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>ATILIM ÜNİVERSİTESİ KAMPÜSÜ.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.721705,39.813992,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>ATILIM ÜNİVERSİTESİ KAMPÜSÜ.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.722199,39.815838,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>ATILIM ÜNİVERSİTESİ KAMPÜSÜ.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.725182,39.814223,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>HSBC BANKASI ÖNÜ.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.806195,39.793683,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>MALTEPE DERSHANESİ GİRİŞİ.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.805669,39.79726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>MARKET GİRİŞİ</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.804736,39.800994,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>TEK YAPI İLKÖĞRETİM OKULU</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.72898,39.829648,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>FRANSIZ OKULU</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.725353,39.831972,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>SEMT POLİKİLİNİĞİ ÖNÜNDE.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.798395,39.801596,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>DEMİRKENT SİTESİ GİRİŞİ - 2 ADET.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.786278,39.782436,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>ANKA VİLLALARI GİRİŞİ.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.752905,39.824161,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>HASTANE GİRİŞİ.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.806957,39.782866,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>MEVLANA PARKI GİRİŞİ.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.810006,39.789157,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUTULARI</name>
+        <description>GÜNDÜZ ALP İÇERİSİ.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.815154,39.791276,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>GÖLCE SİTESİ GİRİŞİ.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.815282,39.79426,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUTULARI</name>
+        <description>SEVGİ ÇİÇEĞİ İÇERİSİ.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.809124,39.784466,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUTULARI</name>
+        <description>TEK OKUL İÇERİSİ</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.819338,39.796255,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUTULARI</name>
+        <description>POLİS AKADEMİSİ İÇERİSİ, HAVACILIK DAİRESİ BAŞKANLIĞI VE LOJMANLARI.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.839851,39.803591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUTULARI</name>
+        <description>ANKARA ÜNV. UZAKTAN EĞİTİM MERKEZİ 2 TANE.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.819123,39.781399,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUTULARI</name>
+        <description>GAZİ ÜNİVERSİTESİ MELEKÜLER BİYOLOJİ, TİVARET VE TURİZM EĞİTİM FAKÜLTESİ, ENDÜSTRİYEL SANATLAR EĞİTİM FAKÜLETESİ, TEKNOPARK, SAĞLIK HİZMETLERİ MYO, YABANCI DİLLER YÜKSEKOKULU, YASEM.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.808137,39.780179,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>GÜLERMAK GİRİŞİ.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.80539,39.773087,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TOKİ EYMİR</name>
+        <styleUrl>#line-FFFFFF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            32.856503,39.790896,0
+            32.856202,39.795051,0
+            32.851181,39.795908,0
+            32.843757,39.798513,0
+            32.837834,39.798315,0
+            32.835131,39.795843,0
+            32.845001,39.788093,0
+            32.848692,39.789248,0
+            32.850881,39.789775,0
+            32.856503,39.790896,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>YOL</name>
+        <styleUrl>#line-FFFFFF-3000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            32.834916,39.788687,0
+            32.83689,39.786675,0
+            32.83998,39.786478,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>İLÇE MİLLİ EĞİTİM MÜDÜRLÜĞÜ.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.809253,39.78567,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUTULARI</name>
+        <description>İNÖNÜ İ.Ö.O. İÇERİSİ.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.811463,39.78966,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUTULARI</name>
+        <description>ATATÜRK İ.Ö.O. İÇERİSİ.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.80848,39.795348,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUTULARI</name>
+        <description>A.A. DİNÇER LİSESİ İÇERİSİ.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.814746,39.795167,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>TOKİ KONUTLARI 4., 5., 6. ETAPLAR 14 TANE.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.842083,39.790995,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>TOKİ 1., 2., 3., 4. ETAPLAR 31 ADET.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.848263,39.792578,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>TEAŞ 28 ADET.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.821741,39.800558,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUTULARI</name>
+        <description>ŞEHİT BÜLENT GÖÇER İ.Ö.O., ŞEHİT SEBAHATTİN İ.Ö.O. VE ERDEM BEYAZIT LİSESİ-23 ADET</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.846718,39.788225,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUTULARI</name>
+        <description>DANIŞ KARABELEN KIŞLASI.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.844315,39.704942,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>SELEX KOMİNİKASYON.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.805562,39.744187,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>NERU İNŞAAT.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.815132,39.737158,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>EYMİR BLOKLARI.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.830625,39.791193,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>EYMİR MARKET ÖNÜ.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.829552,39.790402,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUTULARI</name>
+        <description>KIZ TEKNİK VE MESLEK LİSESİ.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.809188,39.794853,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>GÖLBAŞI AİLE YAŞAM MERKEZİ.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.809553,39.79393,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA - GD KUTULARI</name>
+        <description>KARAALİ YATILI İLKÖĞRETİM BÖLGE OKULU</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.940102,39.647716,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>SELAMETLİ İLKÖĞRETİM OKULU</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.809682,39.486058,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>ÇEVREGÖL PARLEMENT SİTESİ - 3 ADET</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.681108,39.772197,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>2 ADET DOKTORLAR SİTESİ</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.784061,39.784466,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>ŞİRİNGÜLKÖY SİTESİ.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.765093,39.781959,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>KARGEN KONUTLARI İÇERİSİNDE.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.665787,39.777342,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>BEZİRHANE İLKÖĞRETİM OKULU İÇERİSİ</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.853928,39.481454,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>PTT ANA DEPO MÜDÜRLÜĞÜ-GÖLBAŞI</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.818394,39.713327,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUTULARI</name>
+        <description>GÖLBAŞI BELEDİYESİ İÇERİSİ</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.804296,39.789478,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>BAYRAK İÇERİSİNDE</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.724838,39.665442,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>NETVİZYON</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.748828,39.829269,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>TED ANKARA KOLEJİ İÇERİSİ.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.775607,39.829797,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>İLÇE TARIM VE HAYVANCILIK MÜDÜRLÜĞÜ İÇERİSİ.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.803352,39.792215,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>GÜVEMCEM SİTESİ İÇERİSİ.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.760329,39.792974,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>NESİBE AYDIN KOLEJİ</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.777066,39.781399,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUTULARI</name>
+        <description>GÖLBAŞI KAYMAKAMLIĞI</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.808555,39.785958,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBAR</name>
+        <description>SAHİL CADDESİ</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.804929,39.786857,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>SAHİL CADDESİ_2</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.804425,39.785027,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>SAHİL CADDESİ_3</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.803974,39.782998,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>ŞAHİN SEVİM İ.Ö.O.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.793406,39.796774,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUTULARI</name>
+        <description>LABORATUVARLAR</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.770865,39.771504,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUTULARI</name>
+        <description>İNCEK MİGROS</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.73134,39.8295,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUTULARI</name>
+        <description>İNCEK FİZİK TEDAVİ REHABİLİTASYON MERKEZİ</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.729398,39.828882,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>OSMANLI SPOR MERKEZİ</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.812257,39.799346,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>PARK 28 VİLLARI</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.71589,39.815731,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMARA</name>
+        <description>MELEK İPEK İLKÖĞRETİMOKULU</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.697415,39.805503,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>KARAGEDİK ERCAN İLKÖĞRETİM OKULU</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.803679,39.579052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>ENVER BEKTAŞ İLKÖĞRETİM OKULU</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.798717,39.571566,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>ANKARA ÜNİVERSİTESİ GELİŞTİRME VAKFI ÖZEL OKULLARI</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.801206,39.756115,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>WATERBOX - SUKUTUSU</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.815969,39.741234,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>NECİP FAZIL KISAKÜREK KÜÜLTÜR MERKEZİ</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.809733,39.797056,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>ORANIUM XL SPORTS CLUB</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.743292,39.826006,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>PAPATYA SİTESİ</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.773499,39.814985,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>TELEKOMÜNİKASYON İLETİŞİM BAŞKANLIĞI</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.712736,39.829236,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>JANDARMA</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.792923,39.789149,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>AYKAN KOLEJİ</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.705269,39.804514,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GD KUMBARA</name>
+        <description>FİZİKÇİLER SİTESİ</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            32.74312,39.771784,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>NESİBE AYDIN KOLEJİ İÇERİSİNDE.</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            32.765007,39.7799806,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,298 @@
+.main-container{
+    background-color: #F4f5f8;
+    height: 90vh;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    border-radius: 20px;
+}
+
+.sidebar-container {
+    /*background-color: wheat;*/
+    flex:0.4;
+   /* border: 5px solid red;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.chatArea-container {
+    background-color: firebrick;
+    flex:0.7;
+    border: 5px solid blue;
+    overflow: scroll;
+
+}
+
+.sb-header {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 5px; /* top-bottom , left-right*/ 
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3);
+}
+
+.sb-search{
+    border-radius: 20px;
+    padding: 10px 5px;
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3);
+
+}
+
+.search-box {
+    outline-width: 0;
+    border: none;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+.sb-conversations{
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 10px;
+    flex: 1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3);
+
+}
+
+.conversation-container {
+    display: grid;
+    grid-template-columns: 32px auto auto;
+    grid-template-rows: auto auto;
+    gap: 3px;
+    margin: 5px;
+    column-gap: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    transition-duration: 0.5s;
+
+    
+}
+
+.conversation-container:hover {
+    background-color:#0D714D;
+}
+conversation-container:active {
+    background-color: purple;
+}
+
+
+.test-name {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2px;
+    font-size: 15px;
+}
+
+.last-message {
+    color: #666;
+    margin-bottom: 2px;
+    font-size: 14px;
+}
+
+.date {
+    align-self: flex-end;
+    color: #999;
+    font-size: 13px;
+}
+
+
+
+
+.cheatArea-container{
+    display: flex;
+    flex-direction: column;
+    flex: 0.7;
+    overflow: scroll;
+    
+}
+
+.chatArea-header {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 20px;
+    height: 40px;
+}
+
+.chatArea-header 
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+
+}
+
+.messages-container {
+    background-color: white;
+    flex: 1;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 20px;
+    overflow: scroll;
+   
+}
+
+
+.text-input-area{
+    background-color: rgb(230, 240, 233);
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.text-input-area input {
+    padding: 1rem;
+    width: -webkit-fill-available;
+}
+.search-box{
+    outline-width: 0;
+    border: none;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    color: (0,0,0,0.54);
+
+}
+
+.other-message-container {
+    
+}
+
+.messageBox{
+    background-color: #0D714D;
+    padding: 10px 10px;
+    margin: 5px;
+    border-radius: 20px;
+    width: max-content;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+
+}
+
+.self-timeStamp{
+    align-self: flex-end;
+    font-size: 0.5rem;
+    font-weight: lighter;
+}
+
+.other-text-content{
+    background-color: skyblue;
+    padding: 10px 10px;
+    margin: 5px;
+    border-radius: 20px;
+    width: max-content;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome.logo {
+    height: 20vw;
+}
+
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #0D714D;
+    border-bottom: 10px solid #0D714D;
+    border-radius: 20px;
+}
+
+.createGroups-container{
+    flex: 0.7;
+    padding: 20px 10px;
+    margin: 10px;
+    align-self: center;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.list-container{
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+}
+
+.ug-header{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 15px; /* top-bottom , left-right*/ 
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3);
+}
+
+.ug-title {
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+.ug-list{
+    flex: 1;
+    overflow: auto; /* Adjusted for better scrolling behavior */
+    padding: 10px;
+    margin: 10px 0; /* Adds a bit of space above and below the list */
+    border: 2px solid #e0e0e0; /* Subtle border color for a light theme */
+    border-radius: var(--border-radius); /* Utilizing the CSS variable for consistency */
+    background-color: #fff; /* Ensures the background is solid and contrasts well with the border */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Adds a subtle shadow for depth */
+    display: flex;
+    flex-direction: column; /* Ensures items are stacked vertically */
+    gap: 10px; /* Adds space between list items for better readability */
+}
+.list-tem {
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+    margin: 10px;
+}
+.list-tem:active{
+    background-color: #0D714D;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.dark{
+    background-color: #2d3941!important ;
+    color:whitesmoke !important
+}
+
+.icon{
+    width: 1.25em !important;
+    height: 1.25em !important;
+}
+
+.chatArea-container{
+    flex: 1;
+}
+
+.profile-photo {
+    width: 40px; /* Adjust as needed */
+    height: 40px; /* Adjust as needed */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio */
+}

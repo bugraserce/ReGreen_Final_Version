@@ -1,0 +1,54 @@
+.login-page {
+    background-image: url("../../assets/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+  }
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.image-container {
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.slide-image {
+    width: 100%;
+    height: auto;
+}
+
+.slide-content {
+    margin-top: 10px;
+}
+
+.prev-btn, .next-btn {
+    
+    padding: 0.5rem 1rem; /* Adjust padding as needed */
+   
+    color: #0D714D; /* White text color */
+    border-radius: 0.25rem; /* Rounded corners */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor */
+    width: 100px;
+}
+
+.prev-btn {
+    left: 0;
+}
+
+.next-btn {
+    right: 0;
+}

@@ -1,0 +1,46 @@
+.contact-content {
+    display: flex;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 60px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-content h2 {
+    color: #333;
+    font-size: 34px;
+    padding-bottom: 40px;
+    padding-top: 120px;
+  }
+  
+  .contact-content p {
+    color: #666;
+    font-size: 28px;
+    line-height: 1.5;
+  }
+ 
+  .contact-content .leftside {
+    flex: 1;
+    padding-right: 50px;
+  }
+  
+  .contact-content .rightside {
+    flex: 1;
+  }
+  
+  .contact-content img {
+    max-width: 600px;
+    max-height: 600px;
+  }
+  
+  .contact-content a {
+    color:rgb(20, 155, 105); /* Green color */
+    text-decoration: none;
+  }
+  
+  .contact-content a:hover {
+    text-decoration: underline;
+  }
+  
